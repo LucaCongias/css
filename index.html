@@ -39,43 +39,92 @@
         </style>
     </head>
     <body>
-        <h1>Disposizione dei banchi della classe 2L</h1>
-        <div id="grid">
-            <div class="banco">
-                <span>Galasso</span>
-                <span>splandesci</span>
-            </div>
-            <div class="banco">
-                <span>ceccio</span>
-                <span>Nossardi</span>
-            </div>
-            <div class="banco">
-                <span>congias</span>
-                <span>natoieri</span>
-            </div>
-            <div class="banco">
-                <span>Dessi</span>
-                <span>Usai</span>
-            </div>
-            <div class="banco">
-                <span>caddeu</span>
-                <span>contu</span>
-            </div>
-            <div class="banco">
-                <span>bonfigli</span>
-                <span>vespa</span>
-                
-            </div>
-            <span>Furcas</span>
-            <span>Serra</span>
-        </div>
-        <div class="banco">
-            <span>marongoiu</span>
-            <span>Pisano</span>
-        </div>
-        <div class="banco">
-            <span>Sarli</span>
-            <span>Deplano</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-            <div id="teacher">prof</div>
-        </div>
-    </body>                                                                                                                                                                                                                                                                                                                                                                                                                                                         àòljihy7ibgn
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Document</title>
+                <style>
+                    body {
+                        font-size: 30px;
+                    }
+                    h1 {
+                        width: 900px;
+                        margin: 0 auto;
+                        background: #bbbbbb;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        font-size: 40px;
+                    }
+                    #grid {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 40px;
+                        place-items: center;
+                    }
+                    .banco {
+                        background-color: #124312;
+                        text-align: center;
+                        padding: 20px;
+                    }
+                    .banco > span {
+                        margin: 20px;
+                        background-color: #aa33aa;
+                    }
+                    #teacher {
+                        grid-column: 1 / 4;
+                        background-color: #aaabaa;
+                        padding: 30px;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Disposizione dei banchi della classe 2L</h1>
+                <div id="grid">
+                    <div class="banco">
+                        <span>student_1</span>
+                        <span>student_2</span>
+                    </div>
+                    <div class="banco">
+                        <span>student_3</span>
+                        <span>student_4</span>
+                    </div>
+                    <div class="banco">
+                        <span>student_6</span>
+                        <span>student_7</span>
+                    </div>
+                    <div class="banco">
+                        <span>student_8</span>
+                        <span>student_9</span>
+                    </div>
+                    <div class="banco">
+                        <span>student_10</span>
+                        <span>student_11</span>
+                    </div>
+                </div>
+                <div class="banco">
+                    <span>student_12</span>
+                    <span>student_13</span>
+                </div>
+                <div class="banco">
+                    <span>student_14</span>
+                    <span>student_15</span>
+                </div>
+                <div class="banco">
+                    <span>student_16</span>
+                    <span>student_17</span>
+                </div>
+                <div class="banco">
+                    <span>student_18</span>
+                    
+                </div>
+                    <div class="banco">
+                        <span>student_2</span>
+                        <span>student_1</span>
+                    </div>
+                    <div id="teacher">Teacher</div>
+                </div>
+            </body>
+        </html>
